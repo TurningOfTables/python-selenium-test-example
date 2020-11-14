@@ -9,7 +9,7 @@ ${BROWSER}    headlesschrome
 
 *** Keywords ***
 Open Site
-    Open Browser    ${SERVER}    ${BROWSER}  options=add_argument("--disdff")
+    Open Browser    ${SERVER}    ${BROWSER}  options=add_argument("--disable-logging")
 
 Test Setup
     Start Process    python    -m    http.server    8000    -d    sample_site
