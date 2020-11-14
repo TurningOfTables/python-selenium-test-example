@@ -1,7 +1,7 @@
 *** Settings ***
 Library          SeleniumLibrary
 Documentation    Lorem Ipsum Plc - Login
-Resource         resource.robot
+Resource         ./resources/resource.robot
 Test Setup       Test Setup
 Test Teardown    Test Teardown
 
